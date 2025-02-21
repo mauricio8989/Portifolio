@@ -152,7 +152,10 @@ export const Section = styled.section`
     font-size: 40px;
     font-family: 'Kalam', cursive;
     font-weight: 400;
-    background-image: linear-gradient(45deg, #9955E8, #7BFFAF);
+    background: linear-gradient(to right, #9955E8, #7BFFAF);
+    background: linear-gradient(to right, #9955E8, #7BFFAF, #7BFFAF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

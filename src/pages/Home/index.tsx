@@ -7,7 +7,7 @@ import { SiSqlite } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import imgBro from "/src/assets/bro.svg"
 
-const projects = [
+export const projects = [
   {
     id: 1,
     imgUrl: "https://i.ibb.co/whx2m8s/Captura-de-tela-2024-02-10-100347.png",
